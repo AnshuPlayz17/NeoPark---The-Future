@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #00796b;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .tagline {
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 1.1em;
+  }
+  
+  main {
+    margin-top: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #ffffffee;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .neopark-section {
+    background-color: #c8e6c9;
+  }
+  
+  h1, h2 {
+    color: #004d40;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .grid div {
+    background-color: #b2dfdb;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
